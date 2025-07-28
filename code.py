@@ -7,7 +7,7 @@ print("2. Centimeters to Inches")
 choice = input("Enter 1 or 2 to choose conversion: ")
 
 if choice == "1":
-    inches = float(input("Enter length in inches: "))
+    inches = float(input("Enter  length in inches: "))
     cm = inches * 2.54
     print(inches, "inches is", round(cm, 2), "centimeters.")
 
